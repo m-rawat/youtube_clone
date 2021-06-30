@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 0.2;
+    top: 0;
+    position: sticky;
+}
+
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar__head{
+    height: 1px;
+    border: 0;
+    color: #606060;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+
+.sidebar__sub{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.sidebar__avatar{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.sidebar__title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
